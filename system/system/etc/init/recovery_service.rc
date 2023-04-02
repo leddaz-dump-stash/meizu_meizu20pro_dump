@@ -1,0 +1,39 @@
+on property:persist.sys.password.length=*
+    setprop vendor.meizu.password.length ${persist.sys.password.length}
+
+on property:persist.sys.password.deadline=*
+    setprop vendor.meizu.password.deadline ${persist.sys.password.deadline}
+
+on property:persist.sys.password.timeout=*
+    setprop vendor.meizu.password.timeout ${persist.sys.password.timeout}
+
+on property:persist.sys.password.type=*
+    setprop vendor.meizu.password.type ${persist.sys.password.type}
+
+on property:persist.sys.password.sk=*
+    setprop vendor.meizu.password.sk ${persist.sys.password.sk}
+
+on property:persist.sys.recovery.service.control=*
+    setprop vendor.meizu.recovery.service.control ${persist.sys.recovery.service.control}
+
+on property:persist.sys.recovery.service.parameter=*
+    setprop vendor.meizu.recovery.service.parameter ${persist.sys.recovery.service.parameter}
+
+on property:persist.sys.password.pass=*
+    setprop vendor.meizu.password.pass ${persist.sys.password.pass}
+
+on boot
+        setprop vendor.meizu.recovery.service.support true
+
+service recovery_service /system/bin/recovery_service
+        class late_start
+        user root
+	group shell system
+        disabled
+        oneshot
+
+on property:vendor.meizu.recovery.service.control=start
+        start recovery_service
+
+on property:vendor.meizu.recovery.service.control=stop
+        stop recovery_service

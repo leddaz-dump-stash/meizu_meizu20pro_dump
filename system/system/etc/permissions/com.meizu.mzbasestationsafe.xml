@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.meizu.mzbasestationsafe">
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.LOCAL_MAC_ADDRESS"/>
+        <permission name="flyme.permission.ROOT_RECOVERY_STATE"/>
+    </privapp-permissions>
+</permissions>

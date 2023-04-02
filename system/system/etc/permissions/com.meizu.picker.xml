@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.meizu.picker">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.LOCAL_MAC_ADDRESS"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="flyme.permission.ROOT_RECOVERY_STATE"/>
+        <permission name="flyme.permission.SEND_ACTIVITY_RESULT"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.STATUS_BAR"/>
+    </privapp-permissions>
+</permissions>

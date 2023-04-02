@@ -1,0 +1,412 @@
+<?xml version="1.0"?>
+<rules>
+  <all block="false" log="true" caller="*" callee="*" interaction="*">
+    <intent-filter>
+		<action name="android.view.InputMethod" />
+	</intent-filter>
+  </all>
+  
+  <all block="false" log="true" caller="*" callee="com.alipay.security.mobile.authenticator" interaction="*">
+  </all>
+  
+  <all block="false" log="true" caller="*" callee="com.google.android.gms" interaction="*">
+  </all>
+  
+  <all block="false" log="true" caller="*" callee="com.eg.android.AlipayGphone" interaction="*">
+	  <intent-filter>
+		  <action name="com.eg.android.AlipayGphone.IAlixPay" />
+	  </intent-filter>
+	  <component-filter name="com.eg.android.AlipayGphone/com.alipay.android.app.MspService" />
+  </all>
+  
+  <provider block="false" log="true" caller="*" callee="com.tencent.mm" interaction="*">
+	  <component-filter name="com.tencent.mm/com.tencent.mm.plugin.base.stub.MMPluginProvider" />
+  </provider>
+  
+  <all block="false" log="true" caller="*" callee="com.sina.weibo" interaction="*">
+	  <component-filter name="com.sina.weibo/com.sina.weibo.business.RemoteSSOService" />
+  </all>
+  
+  <all block="false" log="true" caller="*" callee="com.google.android.gsf" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.unionpay.mobile.tsm" interaction="*">
+  </all>
+  
+  <all block="false" log="true" caller="*" callee="com.tencent.unipay" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.iflytek.vflynote" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.xiaomi.gamecenter.sdk.service" interaction="*">
+	  <intent-filter>
+		  <action name="com.xiaomi.gamecenter.sdk.service"/>
+	  </intent-filter>
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.cmcc.wallet" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="com.google.android.wearable.app" callee="*" interaction="*">
+  </all>
+  
+  <all block="false" log="true" caller="com.google.android.wearable.app.cn" callee="*" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.google.android.wearable.app" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.google.android.wearable.app.cn" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="android.view.accessibility.services" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="android.voicesettings.service" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="android.voiceinteraction.service" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="android.assist.service" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.google.android.marvin.talkback" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.huawei.android.hwpay" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.cmcc.swpplugin" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.iflytek.speechcloud" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="com.google.android.marvin.talkback" callee="*" interaction="*">
+  </all>
+
+  <broadcast block="false" log="true" caller="*" callee="*" interaction="*">
+	  <intent-filter>
+		  <action name="android.provider.Telephony.SMS_DELIVER" />
+	  </intent-filter>
+  </broadcast>
+
+  <broadcast block="false" log="true" caller="*" callee="*" interaction="*">
+	  <intent-filter>
+		  <action name="android.intent.action.MEDIA_BUTTON" />
+	  </intent-filter>
+  </broadcast>
+
+  <service block="false" log="true" caller="com.meizu.safe" callee="com.tencent.qqpimsecure" interaction="*">
+	  <intent-filter>
+		  <action name="com.tencent.qqpimsecure.TMS_LITE_SERVICE" />
+	  </intent-filter>
+	  <component-filter name="com.tencent.qqpimsecure/com.tencent.qqpimsecure.service.TMSLiteService" />
+  </service>
+
+  <broadcast block="false" log="true" caller="*" callee="com.moji.mjweather" interaction="*">
+	  <intent-filter>
+		  <action name="com.moji.mjweather.widget.RIGHT_BOTTOM_BITMAP_BUTTON" />
+	  </intent-filter>
+  </broadcast>
+
+  <broadcast block="false" log="true" caller="*" callee="oms.mmc.app.almanac_inland" interaction="*">
+	  <intent-filter>
+		  <action name="oms.mmc.app.almanac.ClickWidget" />
+	  </intent-filter>
+  </broadcast>
+
+  <broadcast block="false" log="true" caller="*" callee="com.baidu.searchbox" interaction="*">
+	  <intent-filter>
+		  <action name="com.baidu.searchbox.action.FROM_WIDGET_PROVIDER" />
+	  </intent-filter>
+	  <component-filter name="com.baidu.searchbox/com.baidu.searchbox.widget.WidgetActionReceiver" />
+  </broadcast>
+
+  <broadcast block="false" log="true" caller="*" callee="com.baidu.searchbox" interaction="*">
+	  <intent-filter>
+		  <action name="com.baidu.searchbox.action.ALARM_CLOCK" />
+	  </intent-filter>
+	  <component-filter name="com.baidu.searchbox/com.baidu.searchbox.widget.ClockWidgetProvider" />
+  </broadcast>
+
+  <activity block="true" log="true" caller="com.tencent.mobileqq" callee="com.tencent.android.qqdownloader" interaction="*">
+	  <component-filter name="com.tencent.android.qqdownloader/com.tencent.pangu.link.LinkProxyActivity" />
+  </activity>
+
+  <all block="false" log="true" caller="*" callee="com.ztesoft.nbt" interaction="*">
+  </all>
+
+  <provider block="false" log="true" caller="com.meizu.lifekit" callee="com.baidu.BaiduMap" interaction="*">
+  </provider>
+
+  <all block="false" log="true" caller="*" callee="com.hisun.ipos2" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="om.jishi.news" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.huawei.appmarket.wallet" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="*" interaction="*">
+	  <intent-filter>
+		  <action name="com.uc.browser.action.Addon" />
+	  </intent-filter>
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.pptv.vassdk.plug.server" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="droid.app.hp" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.samsung.accessory" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.sogou.speech.offlineservice" interaction="*">
+	  <intent-filter>
+		  <action name="com.sogou.speech.offlineservice.OfflineService" />
+	  </intent-filter>
+	  <component-filter name="com.sogou.speech.offlineservice/com.sogou.speech.offlineservice.OfflineService" />
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.google.android.syncadapters.contacts" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.tencent.mtt" interaction="*">
+	  <component-filter name="com.tencent.mtt/com.tencent.mtt.browser.accessibility.QBAccessibiltyService" />
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.google.android.youtube" interaction="*">
+  </all>
+
+  <activity block="false" log="true" caller="com.alibaba.android.rimet" callee="com.alibaba.android.rimet" interaction="*">
+	  <intent-filter>
+		  <action name="android.intent.action.VIEW" />
+	  </intent-filter>
+	  <component-filter name="com.alibaba.android.rimet/com.alibaba.android.rimet.biz.home.activity.HomeActivity" />
+  </activity>
+
+  <broadcast block="false" log="true" caller="*" callee="*" interaction="*">
+	  <intent-filter>
+		  <action name="com.meizu.flyme.push.intent.MESSAGE" />
+	  </intent-filter>
+  </broadcast>
+
+  <provider block="false" log="true" caller="com.facebook.katana" callee="com.facebook.orca" interaction="*">
+  </provider>
+
+  <activity block="false" log="true" caller="*" callee="com.mogujie" interaction="*">
+	  <component-filter name="com.mogujie/com.mogujie.trade.order.payback.activity.MGPaymentBackAct" />
+  </activity>
+
+  <activity block="false" log="true" caller="*" callee="com.mogujie" interaction="*">
+	  <component-filter name="com.mogujie/com.meilishuo.mltrade.order.payback.activity.MGPaymentBackAct" />
+  </activity>
+
+  <activity block="false" log="true" caller="*" callee="com.mogujie" interaction="*">
+	  <component-filter name="com.mogujie/com.mogujie.mgjpaysdk.cashierdesk.PaymentFailureAct" />
+  </activity>
+
+  <activity block="false" log="true" caller="*" callee="com.mogujie" interaction="*">
+	  <component-filter name="com.mogujie/com.mogujie.mgjpaysdk.cashierdesk.MGCashierDeskAct" />
+  </activity>
+
+  <activity block="false" log="true" caller="*" callee="com.sunrise.scmbhc" interaction="*">
+	  <component-filter name="com.sunrise.scmbhc/com.sunrise.scmbhc.ui.activity.ChargeResultActivity" />
+  </activity>
+
+  <all block="false" log="true" caller="com.android.settings" callee="*" interaction="*">
+	  <intent-filter>
+		  <action name="android.accounts.AccountAuthenticator" />
+	  </intent-filter>
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.netease.yanxuan" interaction="*">
+	  <component-filter name="*/com.netease.yanxuan.module.pay.activity.PayCompleteActivity" />
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.netease.yanxuan" interaction="*">
+	  <component-filter name="*/com.netease.yanxuan.module.mainpage.activity.MainPageActivity" />
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.netease.cloudmusic" interaction="*">
+	  <component-filter name="*/com.netease.cloudmusic.activity.LockScreenActivity" />
+  </all>
+
+  <activity block="false" log="true" caller="*" callee="com.jm.android.jumei" interaction="*">
+	  <component-filter name="*/com.jm.android.jumei.buyflow.activity.payprocess.PaymentResultActivity" />
+  </activity>
+
+  <activity block="false" log="true" caller="*" callee="com.sankuai.meituan" interaction="*">
+	  <component-filter name="*/com.meituan.android.food.payresult.FoodPayResultActivity" />
+  </activity>
+
+  <all block="false" log="true" caller="*" callee="gz.lifesense.weidong" interaction="*">
+	  <component-filter name="gz.lifesense.weidong/com.lifesense.ble.message.NotificationAccessService" />
+  </all>
+
+  <activity block="false" log="true" caller="*" callee="com.sunrise.scmbhc" interaction="*">
+	  <component-filter name="*/com.sunrise.scmbhc.ui.activity.ChargeResultSCActivity" />
+  </activity>
+
+  <all block="false" log="true" caller="*" callee="android.externalservice.service" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.google.android.syncadapters.calendar" interaction="*">
+  </all>
+
+  <activity block="false" log="true" caller="*" callee="*" interaction="*">
+	  <component-filter name="*/com.igexin.sdk.MActivity" />
+  </activity>
+
+  <activity block="false" log="true" caller="*" callee="me.ele.hbdteam" interaction="*">
+	  <component-filter name="*/me.ele.hbdteam.ui.home.HomeActivity" />
+  </activity>
+
+  <provider block="false" log="true" caller="com.google.android.googlequicksearchbox" callee="com.google.android.partnersetup" interaction="*">
+  </provider>
+
+  <all block="false" log="true" caller="*" callee="com.android.cts.certinstaller" interaction="*">
+  </all>
+
+  <service block="false" log="true" caller="*" callee="com.google.android.tts" interaction="*">
+  </service>
+
+  <broadcast block="false" log="true" caller="*" callee="com.baidu.searchbox" interaction="*">
+	  <intent-filter>
+		  <action name="com.baidu.searchbox.action.TIME_TICK" />
+	  </intent-filter>
+	  <component-filter name="com.baidu.searchbox/com.baidu.searchbox.widget.ClockWidgetProvider" />
+  </broadcast>
+
+  <all block="false" log="true" caller="*" callee="com.cttl.testService" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="com.android.systemui" callee="com.tencent.qqpimsecure" interaction="bg">
+  </all>
+
+  <service block="true" log="true" caller="*" callee="com.lingan.seeyou" interaction="bg">
+  </service>
+
+  <all block="true" log="true" caller="com.android.systemui" callee="com.lingan.seeyou" interaction="bg">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.tencent.gamehelper.smoba" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="org.hapjs.mockup" interaction="*">
+  </all>
+
+  <broadcast block="false" log="true" caller="*" callee="com.achievo.vipshop" interaction="*">
+	  <intent-filter>
+		  <action name="com.baidu.BaiduMap.push.ONNOTIFICATIONCLICKED" />
+	  </intent-filter>
+  </broadcast>
+
+  <all block="false" log="true" caller="com.ss.android.article.news" callee="com.ss.android.ugc.aweme" interaction="fg">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.eg.android.AlipayGphone" interaction="*">
+	  <component-filter name="*/com.alipay.android.msp.pay.service.MspService" />
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.viber.voip" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="*" callee="com.meizu.gamecenter.service" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="com.wr.pib.quick" callee="com.ahnlab.v3mobileplus" interaction="*">
+  </all>
+
+  <service block="false" log="true" caller="com.android.systemui" callee="com.ss.android.article.news" interaction="*">
+	  <intent-filter>
+		  <action name="android.ss.intent.action.DOWNLOAD_CLICK" />
+	  </intent-filter>
+  </service>
+
+  <service block="true" log="true" caller="*" callee="*" interaction="*">
+	  <intent-filter>
+		  <action name="com.igexin.sdk.action.service.message" />
+	  </intent-filter>
+	  <component-filter name="*/com.igexin.sdk.PushService" />
+  </service>
+
+  <activity block="true" log="true" caller="com.nd.he.mz" callee="com.sina.news" interaction="fg">
+	  <component-filter name="com.sina.news/com.sina.news.module.push.guard.activity.SinaDynmActivity" />
+  </activity>
+
+  <activity block="true" log="true" caller="com.nd.he.mz" callee="com.netease.newsreader.activity" interaction="fg">
+	  <component-filter name="com.netease.newsreader.activity:pushservice/com.igexin.sdk.GActivity" />
+  </activity>
+
+  <activity block="true" log="true" caller="com.nd.he.mz" callee="com.jingdong.app.mall" interaction="fg">
+	  <component-filter name="com.jingdong.app.mall:jdpush/com.igexin.sdk.GActivity" />
+  </activity>
+
+  <activity block="false" log="true" caller="com.meizu.voiceassistant" callee="*" interaction="bg">
+  </activity>
+
+  <service block="false" log="true" caller="com.meizu.alphame" callee="com.autonavi.minimap" interaction="bg">
+  </service>
+
+  <all block="false" log="true" caller="*" callee="com.android.vending" interaction="*">
+  </all>
+
+  <activity block="false" log="true" caller="com.meizu.mstore" callee="*" interaction="bg">
+  </activity>
+
+  <all block="false" log="true" caller="com.android.nfc" callee="*" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="com.meizu.testdev.smarttraveler" callee="*" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="com.meizu.flyme.alphatravel" callee="*" interaction="*">
+  </all>
+
+  <all block="false" log="*" caller="com.baidu.input" callee="com.tencent.mm" interaction="bg">
+	  <component-filter name="*/com.tencent.mm.plugin.base.stub.WXEntryActivity" />
+  </all>
+
+  <all block="false" log="true" caller="com.iflytek.inputmethod" callee="com.tencent.mobileqq" interaction="bg">
+  </all>
+
+  <all block="false" log="true" caller="com.meizu.testdev.smarttraveler.test" callee="*" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="com.meizu.flyme.inputtest" callee="*" interaction="*">
+  </all>
+
+  <all block="false" log="true" caller="com.meizu.flyme.inputtest.test" callee="*" interaction="*">
+  </all>
+
+  <activity block="false" log="true" caller="com.tencent.mm" callee="com.tencent.mm" interaction="*">
+  </activity>
+
+  <activity block="false" log="true" caller="com.tencent.mobileqq" callee="com.tencent.mobileqq" interaction="*">
+  </activity>
+
+  <activity block="false" log="true" caller="com.alibaba.android.rimet" callee="com.alibaba.android.rimet" interaction="*">
+  </activity>
+
+  <service block="true" log="true" caller="*" callee="*" interaction="*">
+	  <component-filter name="*/com.sdk.plus.EnhService" />
+  </service>
+
+  <activity block="true" log="true" caller="*" callee="*" interaction="*">
+	 <component-filter name="*/com.sdk.plus.EnhActivity" />
+  </activity>
+
+  <activity block="false" log="true" caller="com.meizu.suggestion" callee="*" interaction="bg">
+  </activity>
+
+  <activity block="true" log="true" caller="*" callee="*" interaction="*">
+	  <component-filter name="*/com.igexin.sdk.GActivity" />
+  </activity>
+
+</rules>

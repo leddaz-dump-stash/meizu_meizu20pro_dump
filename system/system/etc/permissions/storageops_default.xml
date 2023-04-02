@@ -1,0 +1,692 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<package-ops>
+  <pkg name="idm.internet.download.manager.plus" uid="-1">
+    <dir name="IDMP" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tencent.gallerymanager" uid="-1">
+    <dir name="Tencent/QQGallery" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tencent.mobileqq" uid="-1">
+    <dir name="Tencent/QQ_Images" op="0" tag="0" priority="-1" />
+    <dir name="tbs" op="0" tag="1" priority="-1" />
+    <dir name="Tencent" op="0" tag="1" priority="-1" />
+    <dir name="QQBrowser" op="0" tag="1" priority="-1" />
+    <dir name="Tencent/QQfile_recv" op="0" tag="0" priority="-1" />
+    <dir name="Tencent/MobileQQ" op="0" tag="0" priority="-1" />
+    <dir name="tencent" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.tencent.androidqqmail" uid="-1">
+    <dir name="Tencent/QQmail" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.kugou.fanxing" uid="-1">
+    <dir name="kugou" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.tmri.app.main" uid="-1">
+    <dir name="TMRI_12123" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.ushaqi.zhuishushenqi.adfree" uid="-1">
+    <dir name="ZhuiShuShenQiAdFree" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.qiyi.video" uid="-1">
+    <dir name="QIYIVideo" op="0" tag="0" priority="-1" />
+    <dir name="QiYiVideo_Local" op="0" tag="0" priority="-1" />
+    <dir name="iqiyi" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="tv.yilan.howto.app" uid="-1">
+    <dir name="haotu" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.gemdale.client" uid="-1">
+    <dir name="smartHome" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.miui.calculator" uid="-1">
+    <dir name="MIUI" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tencent.qgame" uid="-1">
+    <dir name="tencent" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.baidu.tieba" uid="-1">
+    <dir name="baidu" op="0" tag="1" priority="-1" />
+    <dir name="tieba" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.baidu.yuedu" uid="-1">
+    <dir name="BaiduYuedu" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="sogou.mobile.explorer" uid="-1">
+    <dir name="SogouReader" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.dp.android.elong" uid="-1">
+    <dir name="elong" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.netease.mail" uid="-1">
+    <dir name="Netease" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.baidu.searchbox" uid="-1">
+    <dir name="bdmsa_gr" op="0" tag="0" priority="-1" />
+    <dir name="baidu" op="0" tag="0" priority="1" />
+  </pkg>
+  <pkg name="com.duowan.kiwi" uid="-1">
+    <dir name="kiwi" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.xingin.xhs" uid="-1">
+    <dir name="XHS" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tencent.pb" uid="-1">
+    <dir name="qqpim" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.ss.android.article.video" uid="-1">
+    <dir name="bytedance" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.sina.wbsupergroup" uid="-1">
+    <dir name="sina" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.p1.mobile.putong" uid="-1">
+    <dir name="tantan" op="0" tag="0" priority="1" />
+  </pkg>
+  <pkg name="com.yoho" uid="-1">
+    <dir name="Yoho" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.qihoo.loan" uid="-1">
+    <dir name="360.0" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.sangfor.vpn.client.phone" uid="-1">
+    <dir name="sangfor" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.jifen.qukan" uid="-1">
+    <dir name="qk" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.sina.weibo" uid="-1">
+    <dir name="sina" op="0" tag="0" priority="1" />
+  </pkg>
+  <pkg name="com.vmos.app" uid="-1">
+    <dir name="VMOSfiletransferstation" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.search2345" uid="-1">
+    <dir name="2345Browser" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.laisi.magent.player" uid="-1">
+    <dir name="magnetdownload" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="bubei.tingshu" uid="-1">
+    <dir name="tingshu" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.gh.gamecenter" uid="-1">
+    <dir name="gh-download" op="0" tag="0" priority="-1" />
+    <dir name="gh-uuid" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tencent.FileManager" uid="-1">
+    <dir name="TencentFileMgr" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.baidu.haokan" uid="-1">
+    <dir name="baidu" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.wandoujia.phoenix2.usbproxy" uid="-1">
+    <dir name="wandoujia" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.ss.android.ugc.aweme.lite" uid="-1">
+    <dir name="bytedance" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.pokercity.bydrqp.mz" uid="-1">
+    <dir name="pokercity_bydrqp" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="tv.acfundanmaku.video" uid="-1">
+    <dir name="AcFun" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="cn.edaijia.android.client" uid="-1">
+    <dir name="logedj" op="0" tag="0" priority="-1" />
+    <dir name="edj" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.cootek.smartdialer" uid="-1">
+    <dir name="TouchPalContact1612248008737" op="0" tag="0" priority="-1" />
+    <dir name="TouchPalContact1612249613516" op="0" tag="0" priority="-1" />
+    <dir name="TouchPalContact" op="0" tag="0" priority="-1" />
+    <dir name="TouchPalContact1612342067796" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tencent.weishi" uid="-1">
+    <dir name="Tencent/WeiShi" op="0" tag="0" priority="-1" />
+    <dir name="wesee_interaction_sdk" op="0" tag="0" priority="-1" />
+    <dir name="Tencent" op="0" tag="1" priority="-1" />
+    <dir name="QQBrowser" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="cn.kuwo.kwmusichd" uid="-1">
+    <dir name="KwPlayerHD" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.sina.news" uid="-1">
+    <dir name="sina" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="fm.xiami.main" uid="-1">
+    <dir name="xiami" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tencent.android.qqdownloader" uid="-1">
+    <dir name="Tencent/assistant" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.sunboxsoft.oilforgdandroid" uid="-1">
+    <dir name="jygd" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.goplaycn.googleinstall" uid="-1">
+    <dir name="GoogleInstaller" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.taptech.doufu" uid="-1">
+    <dir name="Doufu" op="0" tag="0" priority="-1" />
+    <dir name="doufulog" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.iapp.app" uid="-1">
+    <dir name="iApp" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.ss.android.ugc.aweme" uid="-1">
+    <dir name="bytedance" op="0" tag="0" priority="2" />
+  </pkg>
+  <pkg name="com.lenovo.anyshare" uid="-1">
+    <dir name="QieZi" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="air.tv.douyu.android" uid="-1">
+    <dir name="douyu" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.ss.android.article.lite" uid="-1">
+    <dir name="bytedance" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="org.kustom.wallpaper" uid="-1">
+    <dir name="Kustom" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.duowan.mobile" uid="-1">
+    <dir name="yy_video" op="0" tag="0" priority="-1" />
+    <dir name="yysec" op="0" tag="0" priority="-1" />
+    <dir name="yysdk" op="0" tag="0" priority="1" />
+  </pkg>
+  <pkg name="com.tencent.tmgp.sixrooms" uid="-1">
+    <dir name="sixrooms" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tencent.mm" uid="-1">
+    <dir name="tbs" op="0" tag="1" priority="-1" />
+    <dir name="Tencent" op="0" tag="1" priority="-1" />
+    <dir name="QQBrowser" op="0" tag="1" priority="-1" />
+    <dir name="Tencent/MicroMsg" op="0" tag="0" priority="-1" />
+    <dir name="tencent" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.babycloud.hanju" uid="-1">
+    <dir name="hanju" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.yiqizuoye.jzt" uid="-1">
+    <dir name="17zuoye" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.duapps.recorder" uid="-1">
+    <dir name="recordmaster" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.baidu.searchbox.lite" uid="-1">
+    <dir name="baidu" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.eastmoney.android.berlin" uid="-1">
+    <dir name="eastmoney" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="im.xingzhe" uid="-1">
+    <dir name="xingzhe" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.dmzj.manhua" uid="-1">
+    <dir name="dmzj" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.shoujiduoduo.wpplugin" uid="-1">
+    <dir name="shoujiduoduo" op="0" tag="0" priority="2" />
+  </pkg>
+  <pkg name="com.netease.cloudmusic" uid="-1">
+    <dir name="netease" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.dmzjsq.manhua" uid="-1">
+    <dir name="dmzj" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.able.wisdomtree" uid="-1">
+    <dir name="WisdomTree" op="0" tag="0" priority="-1" />
+    <dir name="WisdomTreeforteacher" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.zhangdan.app" uid="-1">
+    <dir name="51zhangdan" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.lemon.lv" uid="-1">
+    <dir name="Everphoto" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.kwai.videoeditor" uid="-1">
+    <dir name="KwaiVideo" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.synology.DSfile" uid="-1">
+    <dir name="DSfile" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.cubic.autohome" uid="-1">
+    <dir name="autohome" op="0" tag="0" priority="-1" />
+    <dir name="autohomemain" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tencent.tmgp.sgame" uid="-1">
+    <dir name="Tencent" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.sina.weibolite" uid="-1">
+    <dir name="WeiboFast" op="0" tag="0" priority="-1" />
+    <dir name="sina" op="0" tag="0" priority="2" />
+  </pkg>
+  <pkg name="com.lejent.zuoyeshenqi.afanti" uid="-1">
+    <dir name="afanti" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="cn.kuwo.player" uid="-1">
+    <dir name="KuwoMusic" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.moxiu.launcher" uid="-1">
+    <dir name="moxiu" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.UCMobile" uid="-1">
+    <dir name="alipay" op="0" tag="1" priority="-1" />
+    <dir name="UCDownloads" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.weico.international" uid="-1">
+    <dir name="sina" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.zhihu.android" uid="-1">
+    <dir name="zhihu" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.magdalm.apkextractor" uid="-1">
+    <dir name="APK Extractor Pro" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.kugou.android.ringtone" uid="-1">
+    <dir name="KugouRing" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="cn.com.anlaiye" uid="-1">
+    <dir name="aly" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.hundsun.winner.pazq" uid="-1">
+    <dir name="pazq" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.shuqi.controller" uid="-1">
+    <dir name="shuqi" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.kwai.m2u" uid="-1">
+    <dir name="YiTian" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.suning.mobile.epa" uid="-1">
+    <dir name="SNEPA" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.baidu.wenku" uid="-1">
+    <dir name="BaiduWenku" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.vipshop.vswxk" uid="-1">
+    <dir name="vspwxk" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="android.zhibo8" uid="-1">
+    <dir name="zhibo8" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.ss.android.article.news" uid="-1">
+    <dir name="bytedance" op="0" tag="0" priority="1" />
+    <dir name="ByteDownload" op="0" tag="1" priority="-1" />
+    <dir name="news_article" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.yiche.price" uid="-1">
+    <dir name="autoprice" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.quark.browser" uid="-1">
+    <dir name="alipay" op="0" tag="1" priority="-1" />
+    <dir name="Quark" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.zhangkongapp.joke.bamenshenqi" uid="-1">
+    <dir name="BamenDownload" op="0" tag="0" priority="-1" />
+    <dir name="bmsq" op="0" tag="0" priority="-1" />
+    <dir name="八门神器相册" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.picsart.studio" uid="-1">
+    <dir name="PicsArt" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.android.haitong" uid="-1">
+    <dir name="haitong" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.baidu.netdisk" uid="-1">
+    <dir name="BaiduNetdisk" op="0" tag="0" priority="-1" />
+    <dir name="baidu" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.hisense.ms.fly2tv" uid="-1">
+    <dir name="hisense" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.pp.assistant" uid="-1">
+    <dir name="pp" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.qihoo.appstore" uid="-1">
+    <dir name="360Log" op="0" tag="1" priority="-1" />
+    <dir name="360Download" op="0" tag="1" priority="-1" />
+    <dir name="360DownloadCache" op="0" tag="1" priority="-1" />
+    <dir name="360.0" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.baidu.browser.apps" uid="-1">
+    <dir name="bdmsa_gr" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.baidu.bridge" uid="-1">
+    <dir name="BaiduBridge" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tfkj.activitiesofthebranch" uid="-1">
+    <dir name="activitiesofthebranch" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.gotokeep.keep" uid="-1">
+    <dir name="keep" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.haiqiu.jihai" uid="-1">
+    <dir name="JiHai" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.digitalchina.mobile.dfhfz1" uid="-1">
+    <dir name="dfhfz1" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.flyersoft.seekbooks" uid="-1">
+    <dir name="Books" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.cam.youmera" uid="-1">
+    <dir name="youmera" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.anzogame.game" uid="-1">
+    <dir name="AnZoGame" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.ygkj.chelaile.standard" uid="-1">
+    <dir name="chelaile" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.manboker.headportrait" uid="-1">
+    <dir name="MomentCamSys" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.iflytek.inputmethod" uid="-1">
+    <dir name="iFly" op="0" tag="0" priority="-1" />
+    <dir name="iFlyIME" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.oppo.usercenter" uid="-1">
+    <dir name="ColorOS" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.baidu.shucheng" uid="-1">
+    <dir name="baidushucheng" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.pplive.androidphone.sport" uid="-1">
+    <dir name="pptv" op="0" tag="0" priority="-1" />
+    <dir name="sport" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tencent.tmgp.ttmj" uid="-1">
+    <dir name="ttmj_Release" op="0" tag="0" priority="-1" />
+    <dir name="ttmj" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.netease.mobimail" uid="-1">
+    <dir name="Netease" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.advasoft.touchretouch" uid="-1">
+    <dir name="TouchRetouch" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.dragon.read" uid="-1">
+    <dir name="bytedance" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.greenline.guahao" uid="-1">
+    <dir name="guahao" op="0" tag="0" priority="-1" />
+    <dir name="WeDoctor" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.jm.video" uid="-1">
+    <dir name="shuabao" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.youku.phone" uid="-1">
+    <dir name="youku" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tencent.mtt" uid="-1">
+    <dir name="QQBrowser" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="vStudio.Android.Camera360" uid="-1">
+    <dir name="Camera360" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.cmcc.migutvtwo" uid="-1">
+    <dir name="migutv" op="0" tag="0" priority="-1" />
+    <dir name="migusdk" op="0" tag="0" priority="-1" />
+    <dir name="MiguPushlog" op="0" tag="0" priority="-1" />
+    <dir name="miguMovie" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.meizu.testdev.wifiautotest" uid="-1">
+    <dir name="wifiautotest" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tuan800.tao800" uid="-1">
+    <dir name="zhe800" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.sohu.sohuvideo" uid="-1">
+    <dir name="shvdownload" op="0" tag="0" priority="-1" />
+    <dir name="sohu" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.myzaker.ZAKER_Phone" uid="-1">
+    <dir name="ZAKER" op="0" tag="0" priority="1" />
+  </pkg>
+  <pkg name="com.cmcc.cmvideo" uid="-1">
+    <dir name="miguvideo" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tencent.qqmusic" uid="-1">
+    <dir name="qqmusicmlive" op="0" tag="0" priority="-1" />
+    <dir name="Tencent" op="0" tag="1" priority="-1" />
+    <dir name="qqmusicconfig" op="0" tag="0" priority="-1" />
+    <dir name="QQBrowser" op="0" tag="1" priority="-1" />
+    <dir name="tencent" op="0" tag="1" priority="-1" />
+    <dir name="qqmusic" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.chaozh.iReaderFree" uid="-1">
+    <dir name="iReader" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.myzaker.zaker_phone_smartbar" uid="-1">
+    <dir name="ZAKER" op="0" tag="0" priority="2" />
+  </pkg>
+  <pkg name="com.brixd.niceapp" uid="-1">
+    <dir name="zuimei" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.duowan.groundhog.mctools" uid="-1">
+    <dir name="duowan" op="0" tag="0" priority="2" />
+  </pkg>
+  <pkg name="com.snda.lantern.wifilocating" uid="-1">
+    <dir name="WifiMasterKey" op="0" tag="1" priority="-1" />
+    <dir name="WifiMasterKeyLite" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tencent.tmgp.pubgmhd" uid="-1">
+    <dir name="QQBrowser" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.p1.mobile.light" uid="-1">
+    <dir name="tantan" op="0" tag="0" priority="2" />
+  </pkg>
+  <pkg name="com.qihoo360.mobilesafe" uid="-1">
+    <dir name="360Log" op="0" tag="0" priority="-1" />
+    <dir name="360Download" op="0" tag="0" priority="-1" />
+    <dir name="360.0" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.baidu.dict.arabic" uid="-1">
+    <dir name="BaiduDictionary" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.lofter.android" uid="-1">
+    <dir name="netease" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.quvideo.xiaoying" uid="-1">
+    <dir name="XiaoYing" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tencent.qqlive" uid="-1">
+    <dir name="QQBrowser" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.dangdang.buy2" uid="-1">
+    <dir name="dangdang" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tencent.blackkey" uid="-1">
+    <dir name="blackkey" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.xs.fm" uid="-1">
+    <dir name="bytedance" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.qooapp.qoohelper" uid="-1">
+    <dir name="QooApp" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.baidu.BaiduMap" uid="-1">
+    <dir name="baidu" op="0" tag="1" priority="-1" />
+    <dir name="BaiduMap" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.wuba.bangjob" uid="-1">
+    <dir name="58bangjob" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tencent.qqpimsecure" uid="-1">
+    <dir name="Tencent/qqimsecure" op="0" tag="0" priority="-1" />
+    <dir name="qqpim" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.netease.newsreader.activity" uid="-1">
+    <dir name="netease_pushservice" op="0" tag="0" priority="-1" />
+    <dir name="netease" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tencent.map" uid="-1">
+    <dir name="QQBrowser" op="0" tag="1" priority="-1" />
+    <dir name="tencent" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.zhan.toefltom" uid="-1">
+    <dir name="XiaozhanTpoFiles" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.nuomi" uid="-1">
+    <dir name="baidu" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.jiuxianapk.ui" uid="-1">
+    <dir name="jx" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.sina.oasis" uid="-1">
+    <dir name="sina" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.qihoo.cleandroid_lite" uid="-1">
+    <dir name="360.0" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.kugou.android.ktvapp" uid="-1">
+    <dir name="kugou" op="0" tag="1" priority="-1" />
+    <dir name="kugouktvapp" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="cn.etouch.ecalendar" uid="-1">
+    <dir name="etouch" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.ushaqi.zhuishushenqi" uid="-1">
+    <dir name="ZhuiShuShenQi" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.autonavi.minimap" uid="-1">
+    <dir name="alipay" op="0" tag="1" priority="-1" />
+    <dir name="autonavi" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.memezhibo.android" uid="-1">
+    <dir name="memezhibo" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.baidu.carlife" uid="-1">
+    <dir name="BaiduCarlife" op="0" tag="0" priority="-1" />
+    <dir name="BaiduLebo" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.sina.weibocamera" uid="-1">
+    <dir name="sina" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="cn.kuwo.sing" uid="-1">
+    <dir name="kwsing" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tudou.android" uid="-1">
+    <dir name="tudou" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.duowan.gamevoice" uid="-1">
+    <dir name="yysdk" op="0" tag="0" priority="2" />
+    <dir name="duowan" op="0" tag="0" priority="1" />
+  </pkg>
+  <pkg name="com.kugou.viper" uid="-1">
+    <dir name="viper" op="0" tag="0" priority="-1" />
+    <dir name="vipermusic" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.julanling.app" uid="-1">
+    <dir name="jjb" op="0" tag="0" priority="-1" />
+    <dir name="julanling" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.superstar.fantuan" uid="-1">
+    <dir name="fantuan" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.kugou.shiqutouch" uid="-1">
+    <dir name="shiqutouch" op="0" tag="0" priority="-1" />
+    <dir name="kugou" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.imo.android.imoim" uid="-1">
+    <dir name="IMO" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.bitqiu.pan" uid="-1">
+    <dir name="bitqiu" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.ucmobile.lite" uid="-1">
+    <dir name="UCDownloads" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="com.baidu.homework" uid="-1">
+    <dir name="homeworkLogin" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="cn.fzjj" uid="-1">
+    <dir name="fzjj" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.shoujiduoduo.ringtone" uid="-1">
+    <dir name="shoujiduoduo" op="0" tag="0" priority="1" />
+  </pkg>
+  <pkg name="com.eg.android.AlipayGphone" uid="-1">
+    <dir name="alipay" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="cn.mama.pregnant" uid="-1">
+    <dir name="MMPregnant" op="0" tag="0" priority="-1" />
+    <dir name="MAMA" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.jiuyan.infashion" uid="-1">
+    <dir name="in" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.leixun.taofen8" uid="-1">
+    <dir name="taofen8" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.smile.gifmaker" uid="-1">
+    <dir name="gifshow" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.tencent.qqpinyin" uid="-1">
+    <dir name="Tencent/QQInput" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.bxhq.btc" uid="-1">
+    <dir name="8bx" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.kugou.android" uid="-1">
+    <dir name="kugou" op="0" tag="0" priority="-1" />
+    <dir name="kgmusic" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.alibaba.android.rimet" uid="-1">
+    <dir name="alipay" op="0" tag="1" priority="-1" />
+    <dir name="DingTalk" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.autohome.usedcar" uid="-1">
+    <dir name="usedcar" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.Qunar" uid="-1">
+    <dir name="alipay" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="cn.imsummer.summer" uid="-1">
+    <dir name="summer" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.jfbank.wanka" uid="-1">
+    <dir name="WanKa" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.next.netcraft.mz" uid="-1">
+    <dir name="netcraft" op="0" tag="0" priority="-1" />
+    <dir name="netcraft_meizu" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.intsig.camscanner" uid="-1">
+    <dir name="CamScanner" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.lmiot.autotool" uid="-1">
+    <dir name="AutoToolFileNew" op="0" tag="0" priority="-1" />
+    <dir name="AutoToolTemp" op="0" tag="0" priority="-1" />
+    <dir name="AutoToolShortCut" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.snda.wifilocating" uid="-1">
+    <dir name="WifiMasterKey" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="net.windcloud.explorer" uid="-1">
+    <dir name="WindCloud" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.ruijie.whistle" uid="-1">
+    <dir name="new_Whistle" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.netease.gl" uid="-1">
+    <dir name="netease" op="0" tag="1" priority="-1" />
+  </pkg>
+  <pkg name="cn.ibuka.manga.ui" uid="-1">
+    <dir name="ibuka" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.facishare.fs" uid="-1">
+    <dir name="facishare" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="tv.dasheng.vs" uid="-1">
+    <dir name="dsvs" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.douban.frodo" uid="-1">
+    <dir name="douban" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="cn.goapk.market" uid="-1">
+    <dir name="anzhi" op="0" tag="0" priority="-1" />
+  </pkg>
+  <pkg name="com.vyou.vcameraclient" uid="-1">
+    <dir name="ddpai" op="0" tag="0" priority="-1" />
+  </pkg>
+</package-ops>
