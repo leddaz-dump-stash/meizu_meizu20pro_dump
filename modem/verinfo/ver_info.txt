@@ -1,0 +1,37 @@
+{
+    "Image_Build_IDs": {
+        "adsp": "ADSP.HT.5.8-01002.2-KAILUA-1",
+        "aop": "AOP.HO.5.0-00285-KAILUA_E-1",
+        "apps_LE": "LE.UM.6.3.3.r1-11300-genericarmv8-64.0-1",
+        "apps_kernel": "KERNEL.PLATFORM.2.0.r1-06800-kernel.0-1",
+        "apps_qssi": "LA.QSSI.13.0.r1-08200-qssi.0-1",
+        "apps_vendor": "LA.VENDOR.13.2.0.r1-11000-KAILUA.0-1",
+        "audio": "AUDIO.LA.8.0.r1-05000-KAILUA.0-1",
+        "boot": "BOOT.MXF.2.1.1-00102-KAILUA-1.21534.2",
+        "btfm_hmt": "BTFW.HAMILTON.2.0.0-00516-PATCHZ-1",
+        "btfm_hsp": "BTFW.HSP.2.1.1-00241-PATCHZ-1",
+        "camera": "CAMERA.LA.3.0.r1-03400-KAILUA.0-1",
+        "cdsp": "CDSP.HT.2.8-00640-KAILUA-1",
+        "common": "Kailua.LA.1.0.r1-00995-STD.PROD-2.21534.9",
+        "cpucp": "CPUCP.FW.1.0-00060-KAILUA.EXT-1",
+        "cpuss_vm": "CPUSS.CPUSYS.VM.1.0-00006-KAILUA.EXT-1",
+        "cv": "CV.LA.1.0.r1-02400-KAILUA.0-1",
+        "display": "DISPLAY.LA.3.0.r1-06700-KAILUA.0-1",
+        "glue": "GLUE.KAILUA.LA.1.0-00336-NOOP_TEST_KAILUA-1",
+        "graphics": "GRAPHICS.LA.1.0.r1-03100-KAILUA.0-1",
+        "modem": "MPSS.DE.3.0-02276-KAILUA_GEN_PACK-1.21534.26",
+        "sensors": "SENSORS.LA.3.0.r1-02500-KAILUA.0-1",
+        "tz": "TZ.XF.5.24-00091-KAILUAAAAAANAZT-1",
+        "tz_apps": "TZ.APPS.1.24-00029-KAILUAAAAAANAZT-1",
+        "video": "VIDEO.LA.3.0.r1-03300-KAILUA.0-1",
+        "wlan_hmt": "WLAN.HMT.1.0-03754.2-QCAHMTSWPL_V1.0_V2.0_SILICONZ-1",
+        "wlan_hsp": "WLAN.HSP.2.0-02021-QCAHSPSWPL_V1_V2_SILICONZ-1",
+        "xr": "XR.LA.1.0.r1-01400-KAILUA.0-1"
+    },
+    "Metabuild_Info": {
+        "Meta_Build_ID": "Kailua.LA.1.0.r1-00995-STD.PROD-2.21534.9",
+        "Product_Flavor": "asic",
+        "Time_Stamp": "2023-03-05 01:05:45"
+    },
+    "Version": "1.0"
+}
