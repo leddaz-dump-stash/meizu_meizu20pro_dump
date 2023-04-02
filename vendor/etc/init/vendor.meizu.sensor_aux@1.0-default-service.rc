@@ -1,0 +1,4 @@
+service vendor.meizu.sensor_aux@1.0-default  /vendor/bin/hw/vendor.meizu.sensor_aux@1.0-default-service
+    class hal
+    user system
+    group system

@@ -1,0 +1,11 @@
+logWarningMask=0
+logInfoMask=0x0
+logVerboseMask=0x0
+logCoreCfgMask=0x0
+logRequestMapping=FALSE
+overrideLogLevels=0x1
+#pdafHWEnable=FALSE
+#enableOISOptimization=TRUE
+#raiserecoverysigabrt=FALSE
+#multiCameraHWSyncMask=0x1
+#multiCameraExposureTimeMatch=TRUE

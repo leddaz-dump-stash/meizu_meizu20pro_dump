@@ -1,0 +1,4 @@
+service vendor.default.fbase_defrag-1-0 /vendor/bin/hw/vendor.meizu.hardware.fbase_defrag@1.0-service
+    class late_start
+    user root
+    group root sdcard_rw media_rw

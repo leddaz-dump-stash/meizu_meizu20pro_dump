@@ -1,0 +1,9 @@
+service mkelog_parser /vendor/bin/mkelog_parser
+    class late_start
+    user root
+    group everybody system sdcard_rw
+    disabled
+    oneshot
+
+on property:sys.boot_completed=1
+    start mkelog_parser

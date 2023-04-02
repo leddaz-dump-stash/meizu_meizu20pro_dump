@@ -1,0 +1,11 @@
+service vendor.qteedebugd /vendor/bin/qteedebugd
+    class late_start
+    user system
+    group system
+    disabled
+
+on property:persist.vendor.meizu.qteedebug=1
+    start vendor.qteedebugd
+
+on property:persist.vendor.meizu.qteedebug=0
+    stop vendor.qteedebugd

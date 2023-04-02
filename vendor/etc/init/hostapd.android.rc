@@ -1,0 +1,23 @@
+#
+# init.rc fragment for hostapd on Android
+# Copyright (c) 2002-2016, Jouni Malinen <j@w1.fi>
+#
+# This software may be distributed under the terms of the BSD license.
+# See README for more details.
+#
+
+on post-fs-data
+    # Flyme.WLAN.yxj.bug_fix change dir wifi to 0771
+    # for #1162845 logreport to copy /data/vendor/wifi/wlan_logs
+    mkdir /data/vendor/wifi 0771 wifi wifi
+    mkdir /data/vendor/wifi/hostapd 0770 wifi wifi
+    mkdir /data/vendor/wifi/hostapd/sockets 0770 wifi wifi
+
+service hostapd /vendor/bin/hw/hostapd -dd -g /data/vendor/wifi/hostapd/global
+    interface aidl android.hardware.wifi.hostapd.IHostapd/default
+    class main
+    capabilities NET_ADMIN NET_RAW
+    user wifi
+    group wifi net_raw net_admin
+    disabled
+    oneshot
