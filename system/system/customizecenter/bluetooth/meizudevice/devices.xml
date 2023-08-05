@@ -1,0 +1,107 @@
+<devices>
+    <config>
+        <version>18</version>
+        <interval>1</interval>
+    </config>
+
+    <device name="MEIZU TW50">
+        <address>5C:CD:7C</address>
+        <darkUrl>https://mcard-res.meizu.com/resources/mcard/setting_dark_tws_icon.png</darkUrl>
+        <whiteUrl>https://mcard-res.meizu.com/resources/mcard/systemui_white_tws_icon.png</whiteUrl>
+    </device>
+
+    <device name="MEIZU TW50s">
+        <address>5C:CD:7C</address>
+        <darkUrl>https://mcard-res.meizu.com/resources/mcard/setting_dark_tws_icon.png</darkUrl>
+        <whiteUrl>https://mcard-res.meizu.com/resources/mcard/systemui_white_tws_icon.png</whiteUrl>
+    </device>
+
+    <device name="MEIZU POP2s">
+        <address>5C:CD:7C</address>
+        <darkUrl>https://mcard-res.meizu.com/resources/mcard/setting_dark_tws_icon.png</darkUrl>
+        <whiteUrl>https://mcard-res.meizu.com/resources/mcard/systemui_white_tws_icon.png</whiteUrl>
+    </device>
+
+    <device name="MEIZU HD60 BT">
+        <address>5C:CD:7C</address>
+        <darkUrl>https://mcard-res.meizu.com/resources/mcard/setting_dark_hd60_icon.png</darkUrl>
+        <whiteUrl>https://mcard-res.meizu.com/resources/mcard/systemui_white_hd60_icon.png</whiteUrl>
+    </device>
+
+    <device name="MEIZU HD60 ANC">
+        <address>5C:CD:7C</address>
+        <darkUrl>https://mcard-res.meizu.com/resources/mcard/setting_dark_hd60_icon.png</darkUrl>
+        <whiteUrl>https://mcard-res.meizu.com/resources/mcard/systemui_white_hd60_icon.png</whiteUrl>
+    </device>
+
+    <device name="MEIZU POP Pro">
+        <address>5C:CD:7C</address>
+        <darkUrl>https://mcard-res.meizu.com/resources/mcard/setting_dark_pop_pro_icon.png</darkUrl>
+        <whiteUrl>https://mcard-res.meizu.com/resources/mcard/systemui_white_pop_pro_icon.png</whiteUrl>
+    </device>
+
+    <device name="mblu Blus">
+        <address>5C:CD:7C</address>
+        <darkUrl>https://mcard-res.meizu.com/resources/mcard/setting_dark_pop_pro_icon.png</darkUrl>
+        <whiteUrl>https://mcard-res.meizu.com/resources/mcard/systemui_white_pop_pro_icon.png</whiteUrl>
+    </device>
+
+    <device name="MEIZU POP3">
+        <address>5C:CD:7C</address>
+        <darkUrl>https://mcard-res.meizu.com/resources/mcard/setting_dark_pop3_icon.png</darkUrl>
+        <whiteUrl>https://mcard-res.meizu.com/resources/mcard/systemui_white_pop3_icon.png</whiteUrl>
+    </device>
+
+    <device name="mblu Blus+">
+        <address>5C:CD:7C</address>
+        <darkUrl>https://mcard-res.meizu.com/resources/mcard/setting_dark_pop_pro_icon.png</darkUrl>
+        <whiteUrl>https://mcard-res.meizu.com/resources/mcard/systemui_white_pop_pro_icon.png</whiteUrl>
+    </device>
+
+    <device name="Blus Air">
+        <address>5C:CD:7C</address>
+        <darkUrl>https://mcard-res.meizu.com/resources/mcard/setting_dark_mblu_air_icon.png</darkUrl>
+        <whiteUrl>https://mcard-res.meizu.com/resources/mcard/systemui_white_mblu_air_icon.png</whiteUrl>
+    </device>
+
+	<device name="Blus 2">
+		<address>5C:CD:7C</address>
+		<darkUrl>https://mcard-res.meizu.com/resources/mcard/setting_dark_pop_pro_icon.png</darkUrl>
+		<whiteUrl>https://mcard-res.meizu.com/resources/mcard/systemui_white_pop_pro_icon.png</whiteUrl>
+	</device>
+
+    <video>
+        <vid>19713</vid>
+        <pid>0001</pid>
+        <openUrl>https://mcard-res.meizu.com/resources/mcard/19713/0001/open.zz</openUrl>
+        <loopUrl>https://mcard-res.meizu.com/resources/mcard/19713/0001/loop.zz</loopUrl>
+    </video>
+
+    <video>
+        <vid>19713</vid>
+        <pid>0002</pid>
+        <openUrl>https://mcard-res.meizu.com/resources/mcard/19713/0002/open.zz</openUrl>
+        <loopUrl>https://mcard-res.meizu.com/resources/mcard/19713/0002/loop.zz</loopUrl>
+    </video>
+
+    <video>
+        <vid>9941</vid>
+        <pid>0001</pid>
+        <openUrl>https://mcard-res.meizu.com/resources/mcard/9941/0001/open.zz</openUrl>
+        <loopUrl>https://mcard-res.meizu.com/resources/mcard/9941/0001/loop.zz</loopUrl>
+    </video>
+
+    <video>
+        <vid>16723</vid>
+        <pid>0002</pid>
+        <openUrl>https://mcard-res.meizu.com/resources/mcard/16723/0002/open.zz</openUrl>
+        <loopUrl>https://mcard-res.meizu.com/resources/mcard/16723/0002/loop.zz</loopUrl>
+    </video>
+
+	<video>
+		<vid>16723</vid>
+		<pid>0003</pid>
+		<openUrl>https://mcard-res.meizu.com/resources/mcard/16723/0003/open.zz</openUrl>
+		<loopUrl>https://mcard-res.meizu.com/resources/mcard/16723/0003/loop.zz</loopUrl>
+	</video>
+</devices>

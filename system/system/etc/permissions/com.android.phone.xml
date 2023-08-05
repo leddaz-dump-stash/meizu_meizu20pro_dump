@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.android.phone">
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="flyme.permission.GET_FLYME_HIPS_SERVICE"/>
+        <permission name="android.permission.START_TASKS_FROM_RECENTS"/>
+    </privapp-permissions>
+</permissions>

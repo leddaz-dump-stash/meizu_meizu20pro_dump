@@ -1,0 +1,14 @@
+# exception starts exceptionmonitorservice so that ems extends the permissions of dumpstate
+service em_starter /system/bin/ems_process /system/bin/ com.meizu.ems.ExceptionManagerEntry
+    class main
+    user system
+    group system sdcard_rw media_rw misc cache input
+
+on property:persist.sys.exceptionmanager=*
+    restart em_starter
+
+on post-fs-data
+    mkdir /data/misc/ems_logs 0766 system system
+    mkdir /data/misc/ems_logs/snapshot 0766 system system
+
+#END LINE

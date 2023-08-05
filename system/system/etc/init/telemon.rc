@@ -1,0 +1,6 @@
+service telemon /system/bin/telemon
+    class main
+    user root
+    group root readproc
+    capabilities KILL
+    seclabel  u:r:telemon:s0
