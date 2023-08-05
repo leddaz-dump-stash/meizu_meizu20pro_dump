@@ -1,0 +1,15 @@
+product/custom/3rd-party/apk2/Weibo/Weibo.apk.xz
+product/custom/3rd-party/apk/baidu/baidu.apk.xz
+product/app/WebViewGoogle/WebViewGoogle.apk.xz
+product/priv-app/GmsCore/GmsCore.apk.xz
+modem.img.xz
+system/system/MzApp/Video/Video.apk.xz
+system/system/MzApp/FlymeMusic/FlymeMusic.apk.xz
+system/system/MzApp/Weather/Weather.apk.xz
+system/system/MzApp/Scanner/Scanner.apk.xz
+system/system/priv-app/Browser/Browser.apk.xz
+system/system/priv-app/DirectService/DirectService.apk.xz
+system_ext/apex/com.android.vndk.v30.apex.xz
+system_ext/app/SnapdragonSVA/SnapdragonSVA.apk.xz
+bootRE/boot.elf.xz
+recovery.img.xz
