@@ -1,0 +1,1228 @@
+{
+    "version": 1,
+    "updateTime": 1676893065,
+    "cmdAlias": [
+        {
+            "name": "dumpstack",
+            "cmd": "c2ggZHVtcHN0YWNrICgpIHsKICAgIGlmIFsgJCMgLWVxIDAgXTt0aGVuCiAgICAgIGVjaG8gIlVzYWdlOiBkdW1wc3RhY2sgPHByb2Nlc3NfbmFtZT4gLi4uIgogICAgICBleGl0IDEKICAgIGZpCgogICAgZm9yIGkgaW4gJCoKICAgIGRvCiAgICAgIGVjaG8gIkR1bXBpbmcgc3RhY2s6ICRpIgogICAgICBwaWRzPSQocHMgLUEgfCBncmVwICRpIHwgYXdrICd7cHJpbnQgJDJ9JykKICAgICAgZm9yIHBpZCBpbiAkcGlkcwogICAgICBkbwogICAgICAgIHByb2Nlc3M9JChyZWFkbGluayAvcHJvYy8kcGlkL2V4ZSkKICAgICAgICBpZiBbICRwcm9jZXNzID09ICIvc3lzdGVtL2Jpbi9hcHBfcHJvY2VzcyIgLW8gJHByb2Nlc3MgPT0gIi9zeXN0ZW0vYmluL2FwcF9wcm9jZXNzNjQiIF0KICAgICAgICB0aGVuCiAgICAgICAgICBlY2hvICJkZWJ1Z2dlcmQgLWogJHBpZCIKICAgICAgICAgIGRlYnVnZ2VyZCAtaiAkcGlkCiAgICAgICAgZWxzZQogICAgICAgICAgZWNobyAiZGVidWdnZXJkIC1iICRwaWQiCiAgICAgICAgICBkZWJ1Z2dlcmQgLWIgJHBpZAogICAgICAgIGZpCiAgICAgIGRvbmUKICAgIGRvbmUKfQo="
+        },
+        {
+            "name": "dumpfd",
+            "cmd": "c2ggZHVtcGZkICgpIHsKICAgIGlmIFsgJCMgLWVxIDAgXTt0aGVuCiAgICAgIGVjaG8gIlVzYWdlOiBkdW1wZmQgPHByb2Nlc3NfbmFtZT4gLi4uIgogICAgICBleGl0IDEKICAgIGZpCgogICAgZm9yIGkgaW4gJCoKICAgIGRvCiAgICAgIGVjaG8gIkR1bXBpbmcgZmQ6ICRpIgogICAgICBwcyAtQSB8IGdyZXAgJGkgfCBhd2sgJ3tzeXN0ZW0oImxzb2YgLXAgIiQyKX0nCiAgICBkb25lCn0="
+        },
+        {
+            "name": "copyfiles",
+            "cmd": "c2ggY29weWZpbGVzICgpewogICAgaWYgWyAkIyAhPSA2IF07dGhlbgogICAgICBlY2hvICJVc2FnZTogY29weWZpbGVzIDxudW1iZXI+IDxhZ2U+IDxwYXR0ZXJuPiA8c291cmNlZGlyPiA8ZGVzdGRpcj4gPGRlbGF5PiIKICAgICAgZXhpdCAxCiAgICBmaQogICAgc2xlZXAgJDYKICAgIGZsPWBscyAtdCAtMSAgJDQqIHwgZ3JlcCAkMyB8IGhlYWQgLW4gJDFgOwogICAgZm9yIGYgaW4gJGZsCiAgICBkbwogICAgICAgIGVjaG8gJGYKICAgICAgICBmdD1gc3RhdCAtYyAlWSAkZmAKICAgICAgICBjdD1gZGF0ZSArJXNgCiAgICAgICAgZmE9YGV4cHIgJGN0IC0gJGZ0YAogICAgICAgIGVjaG8gIm5vdz0kY3QsZmlsZT0kZnQsYWdlPSRmYSIKICAgICAgICBpZiBbICRmYSAtbHQgJDIgXTt0aGVuCiAgICAgICAgICAgIGVjaG8gImNwICRmIgogICAgICAgICAgICBjcCAtcCAkZiAkNTsKICAgICAgICBmaQogICAgZG9uZQp9Cg=="
+        },
+        {
+            "name": "dosysrq",
+            "cmd": "c2ggZG9zeXNycSAoKSB7CiAgICBpZiBbICQjIC1lcSAwIF07dGhlbgogICAgICBlY2hvICJVc2FnZTogZG9zeXNycSA8Y29kZT4gLi4uIgogICAgICBleGl0IDEKICAgIGZpCiAgICBmb3IgaSBpbiAkKgogICAgZG8KICAgICAgZWNobyAiZWNobyAkaSA+IC9wcm9jL3N5c3JxLXRyaWdnZXIiCiAgICAgIGVjaG8gJGkgPiAvcHJvYy9zeXNycS10cmlnZ2VyCiAgICBkb25lCn0K"
+        },
+        {
+            "name": "hprof",
+            "cmd": "c2ggaHByb2YgKCkgewogIGVjaG8gInRyeSBzbGVlcCA4cyB3YWl0IGFwcCB0byBjYXRjaCBocHJvZiAuLi4iCiAgc2xlZXAgOAogIGVjaG8gInNsZWVwIGVuZCEiCiAgZXhwb3J0IENMQVNTUEFUSD1gZ2V0cHJvcCBwZXJzaXN0LnN5cy5leGNlcHRpb25tYW5hZ2VyfHNlZCAicyMvYmFzZS5hcGsjL2xpYi9hcm02NC9saWJzaGFyay5zbyMiYAogIGlmIFsgLXogJENMQVNTUEFUSCBdO3RoZW4KICAgZXhwb3J0IENMQVNTUEFUSD0vc3lzdGVtL3ByaXYtYXBwL0V4Y2VwdGlvbk1hbmFnZXIvbGliL2FybTY0L2xpYnNoYXJrLnNvCiAgZmkKICBlY2hvICJ0aGUgY2xhc3NwYXRoIGlzICRDTEFTU1BBVEgiCiAgYXBwX3Byb2Nlc3MgLyBjb20ubWVpenUuZm9vbS5NYWluS3QgJGJhc2VMb2dQYXRoL2ZhdGFsaGVhcC5ocHJvZgp9Cg=="
+        },
+        {
+            "name": "startperfetto",
+            "cmd": "c2ggc3RhcnRwZXJmZXR0bygpIHsKICAgIHBlcmZldHRvIC0tZGV0YWNoPWVtcyAtbyAvZGF0YS9sb2NhbC90cmFjZXMvdHJhY2VfZW1zLnBlcmZldHRvIC1jIC9kYXRhL21pc2MvcGVyZmV0dG8tY29uZmlncy9wZXJmZXR0b19lbXMuY29uZmlnIC0tdHh0Cn0K"
+        },
+        {
+            "name": "stopperfetto",
+            "cmd": "c2ggc3RvcHBlcmZldHRvKCkgewogIHBlcmZldHRvIC0tc3RvcCAtLWF0dGFjaD1lbXMKfQo="
+        },
+        {
+            "name": "ems_start_perfetto",
+            "cmd": "c2ggZW1zX3N0YXJ0X3BlcmZldHRvKCkgewogICAgcGVyZmV0dG8gLS1kZXRhY2g9ZW1zX2lubmVyIC1vIC9kYXRhL2xvY2FsL3RyYWNlcy90cmFjZV9lbXMucGVyZmV0dG8gLWMgL2RhdGEvbWlzYy9lbXNfbG9ncy9wZXJmZXR0by5jb25maWcgLS10eHQKfQo="
+        },
+        {
+            "name": "ems_stop_perfetto",
+            "cmd": "c2ggZW1zX3N0b3BfcGVyZmV0dG8oKSB7CiAgcGVyZmV0dG8gLS1zdG9wIC0tYXR0YWNoPWVtc19pbm5lcgp9Cg=="
+        },
+        {
+            "name": "killprocess",
+            "cmd": "c2gga2lsbHByb2Nlc3MgKCkgewogICAgaWYgWyAkIyAhPSAyIF07dGhlbgogICAgICBlY2hvICJVc2FnZToga2lsbHByb2Nlc3MgPHBpZD4gPHBhY2thZ2VOYW1lPi4uLiIKICAgICAgZXhpdCAxCiAgICBmaQoKICAgIHBpZD0kMQogICAgcGFja2FnZU5hbWU9JDIKICAgIGVjaG8gIktpbGxpbmcgcHJvY2VzczogJHBpZCwgJHBhY2thZ2VOYW1lIgogICAgcHJvY2Vzcz0kKHJlYWRsaW5rIC9wcm9jLyRwaWQvZXhlKQogICAgaWYgWyAkcHJvY2VzcyA9PSAiL3N5c3RlbS9iaW4vYXBwX3Byb2Nlc3MiIC1vICRwcm9jZXNzID09ICIvc3lzdGVtL2Jpbi9hcHBfcHJvY2VzczY0IiBdCiAgICB0aGVuCiAgICAgIGVjaG8gImtpbGxwcm9jZXNzIC1qICRwYWNrYWdlTmFtZSIKICAgICAgYW0gZm9yY2Utc3RvcCAkcGFja2FnZU5hbWUKICAgIGVsc2UKICAgICAgZWNobyAia2lsbHByb2Nlc3MgLWIgJHBpZCIKICAgICAga2lsbCAtOSAkcGlkCiAgICBmaQp9"
+        }
+    ],
+    "init": [
+        {
+            "enable": true,
+            "type": "ems",
+            "name": "TracingAction",
+            "predication": "published=`getprop ro.flyme.published`\nif [[ $published = \"\" || $published = \"false\" ]]\nthen\n    echo \"true\" \nelse \n    echo \"false\"\nfi",
+            "params":[
+                {
+                    "cmd": "ems_stop_perfetto ; echo 0 > /d/tracing/tracing_on ; ems_start_perfetto"
+                }
+            ]
+        },
+        {
+            "enable": true,
+            "type": "ems",
+            "name": "ShellAction",
+            "params":[
+                {
+                    "cmd": "setprop persist.sys.ems.show_exception_dialog false"
+                }
+            ]
+        }
+    ],
+    "perfettoConfig": "d3JpdGVfaW50b19maWxlOiB0cnVlCmZsdXNoX3BlcmlvZF9tczogMzAwMDAKZmlsZV93cml0ZV9wZXJpb2RfbXM6IDYwNDgwMDAwMAppbmNyZW1lbnRhbF9zdGF0ZV9jb25maWcgewogIGNsZWFyX3BlcmlvZF9tczogMTUwMDAKfSAKYnVmZmVycyB7CiAgc2l6ZV9rYjogNjU1MzYKICBmaWxsX3BvbGljeTogUklOR19CVUZGRVIKfQpidWZmZXJzIHsKICBzaXplX2tiOiAyMDQ4CiAgZmlsbF9wb2xpY3k6IFJJTkdfQlVGRkVSCn0KZGF0YV9zb3VyY2VzIHsKICBjb25maWcgewogICAgbmFtZTogImxpbnV4LmZ0cmFjZSIKICAgIHRhcmdldF9idWZmZXI6IDAKICAgIGZ0cmFjZV9jb25maWcgewogICAgICBhdHJhY2VfY2F0ZWdvcmllczogInJlcyIKICAgICAgYXRyYWNlX2NhdGVnb3JpZXM6ICJpZGxlIgogICAgICBhdHJhY2VfY2F0ZWdvcmllczogImRhbHZpayIKICAgICAgYXRyYWNlX2NhdGVnb3JpZXM6ICJmcmVxIgogICAgICBhdHJhY2VfY2F0ZWdvcmllczogImFtIgogICAgICBhdHJhY2VfY2F0ZWdvcmllczogInN5bmMiCiAgICAgIGF0cmFjZV9jYXRlZ29yaWVzOiAiYmluZGVyX2RyaXZlciIKICAgICAgYXRyYWNlX2NhdGVnb3JpZXM6ICJpbnB1dCIKICAgICAgYXRyYWNlX2NhdGVnb3JpZXM6ICJoYWwiCiAgICAgIGF0cmFjZV9jYXRlZ29yaWVzOiAidmlldyIKICAgICAgYXRyYWNlX2NhdGVnb3JpZXM6ICJzY2hlZCIKICAgICAgYXRyYWNlX2NhdGVnb3JpZXM6ICJ3bSIKICAgICAgYXRyYWNlX2NhdGVnb3JpZXM6ICJnZngiCiAgICAgIGF0cmFjZV9jYXRlZ29yaWVzOiAibmV0d29yayIKICAgICAgY29tcGFjdF9zY2hlZCB7CiAgICAgICAgZW5hYmxlZDogdHJ1ZQogICAgICB9CiAgICAgIGJ1ZmZlcl9zaXplX2tiOiA4MTkyCiAgICAgIGRyYWluX3BlcmlvZF9tczogMTAwMAogICAgfQogIH0KfQoKZGF0YV9zb3VyY2VzOiB7CiAgICBjb25maWcgewogICAgICAgIG5hbWU6ICJhbmRyb2lkLmxvZyIKICAgICAgICBhbmRyb2lkX2xvZ19jb25maWcgewogICAgICAgICAgICBsb2dfaWRzOiBMSURfRVZFTlRTCiAgICAgICAgfQogICAgfQp9CmRhdGFfc291cmNlczogewogICAgY29uZmlnIHsKICAgICAgICBuYW1lOiAibGludXguc3lzX3N0YXRzIgogICAgICAgIHN5c19zdGF0c19jb25maWcgewogICAgICAgICAgICBtZW1pbmZvX3BlcmlvZF9tczogMTAwMAogICAgICAgICAgICBtZW1pbmZvX2NvdW50ZXJzOiBNRU1JTkZPX0NBQ0hFRAogICAgICAgICAgICBtZW1pbmZvX2NvdW50ZXJzOiBNRU1JTkZPX01FTV9BVkFJTEFCTEUKICAgICAgICAgICAgbWVtaW5mb19jb3VudGVyczogTUVNSU5GT19NRU1fRlJFRQogICAgICAgICAgICBtZW1pbmZvX2NvdW50ZXJzOiBNRU1JTkZPX01FTV9UT1RBTAogICAgICAgICAgICBtZW1pbmZvX2NvdW50ZXJzOiBNRU1JTkZPX1NXQVBfQ0FDSEVECiAgICAgICAgICAgIG1lbWluZm9fY291bnRlcnM6IE1FTUlORk9fU1dBUF9GUkVFCiAgICAgICAgICAgIG1lbWluZm9fY291bnRlcnM6IE1FTUlORk9fU1dBUF9UT1RBTAogICAgICAgIH0KICAgIH0KfQpkYXRhX3NvdXJjZXMgewogIGNvbmZpZyB7CiAgICBuYW1lOiAibGludXgucHJvY2Vzc19zdGF0cyIKICAgIHRhcmdldF9idWZmZXI6IDEKICAgIHByb2Nlc3Nfc3RhdHNfY29uZmlnIHsKICAgICAgcHJvY19zdGF0c19wb2xsX21zOiA2MDAwMAogICAgfQogIH0KfQpkYXRhX3NvdXJjZXM6IHsKICBjb25maWcgewogICAgbmFtZTogImFuZHJvaWQuc3lzX3N0YXRzIgogICAgdGFyZ2V0X2J1ZmZlcjogMQogICAgc3lzX3N0YXRzX2NvbmZpZyB7CiAgICAgIHZtc3RhdF9wZXJpb2RfbXM6IDEwMDAKICAgIH0KICB9Cn0K",
+    "exceptions": [
+        {
+            "enable": true,
+            "name": "generic",
+            "category": "error",
+            "allowUpload": true,
+            "allowUploadSubType": []
+        },
+        {
+            "enable": true,
+            "name": "app_anr",
+            "category": "fatal",
+            "allowUpload": true,
+            "configs": [
+                {
+                    "processlist": "com.meizu.flyme.launcher|com.android.systemui|system"
+                }
+            ],
+            "levels": [
+                {
+                    "enable": true,
+                    "name": "Fatal",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "exportVariables": {
+                                "ems": [
+                                    "baseLogPath"
+                                ],
+                                "client": [
+                                    "process_name",
+                                    "trace_file"
+                                ]
+                            },
+                            "params":[
+                                {
+                                    "cmd": "cat /dev/binderfs/binder_logs/state",
+                                    "filename": "binderinfo.txt"
+                                },
+                                {
+                                    "cmd": "cat /dev/binderfs/binder_logs/failed_transaction_log",
+                                    "filename": "failed_transaction_log.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b main -d",
+                                    "filename": "mainlog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b events -d",
+                                    "filename": "eventlog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b system -d",
+                                    "filename": "syslog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b crash -d",
+                                    "filename": "crashlog.txt"
+                                },
+                                {
+                                    "cmd": "dosysrq x m y a w; dmesg -T",
+                                    "filename": "dmesg.txt"
+                                },
+                                {
+                                    "cmd": "ps -A -T",
+                                    "filename": "psinfo.txt"
+                                },
+                                {
+                                    "cmd": "cp -p $trace_file $baseLogPath"
+                                },
+                                {
+                                    "cmd": "dumpsys window",
+                                    "filename": "window.txt"
+                                },
+                                {
+                                    "cmd": "dumpsys activity a",
+                                    "filename": "activity_a.txt"
+                                }
+                            ]
+                        },
+                        {
+                            "enable": true,
+                            "type": "ems",
+                            "name": "TracingAction",
+                            "predication": "published=`getprop ro.flyme.published`\nif [[ $published = \"\" || $published = \"false\" ]]\nthen\n    echo \"true\" \nelse \n    echo \"false\"\nfi",
+                            "exportVariables": {
+                                "ems": [
+                                    "baseLogPath"
+                                ],
+                                "client": [
+                                ]
+                            },
+                            "params":[
+                                {
+                                    "cmd": "ems_stop_perfetto; cp -p /data/local/traces/trace_ems.perfetto $baseLogPath; chmod 777 $baseLogPath/trace_ems.perfetto; ems_start_perfetto"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "enable": true,
+            "name": "display_hang",
+            "category": "fatal",
+            "allowUpload": true,
+            "configs": [
+                {
+                    "frameMissedCount": "3600"
+                }
+            ],
+            "levels": [
+                {
+                    "enable": true,
+                    "name": "Fatal",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "params":[
+                                {
+                                    "cmd": "logcat -v threadtime -b main -d",
+                                    "filename": "mainlog.txt"
+                                },
+                                {
+                                    "cmd": "dmesg -T",
+                                    "filename": "dmesg.txt"
+                                },
+                                {
+                                    "cmd": "ps -A -T",
+                                    "filename": "psinfo.txt"
+                                },
+                                {
+                                    "cmd": "cat /dev/binderfs/binder_logs/state",
+                                    "filename": "binderinfo.txt"
+                                },
+                                {
+                                    "cmd": "cat /dev/binderfs/binder_logs/failed_transaction_log",
+                                    "filename": "failed_transaction_log.txt"
+                                },
+                                {
+                                    "cmd": "dumpstack surfaceflinger composer crtc",
+                                    "filename": "trace.txt"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "enable": true,
+            "name": "layer_leak",
+            "category": "fatal",
+            "allowUpload": true,
+            "configs": [
+                {
+                    "layerCount": "4000"
+                }
+            ],
+            "levels": [
+                {
+                    "enable": true,
+                    "name": "Fatal",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "params":[
+                                {
+                                    "cmd": "dumpsys SurfaceFlinger",
+                                    "filename": "sf.txt"
+                                },
+                                {
+                                    "cmd": "dumpsys SurfaceFlinger --list",
+                                    "filename": "sf_list.txt"
+                                },
+                                {
+                                    "cmd": "dumpsys window",
+                                    "filename": "window.txt"
+                                },
+                                {
+                                    "cmd": "dumpsys activity a",
+                                    "filename": "activity_a.txt"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "enable": true,
+            "name": "sf_ion_oom",
+            "category": "fatal",
+            "allowUpload": true,
+            "configs": [
+                {
+                    "allocated": "1073741824",
+                    "mapped": "1073741824"
+                }
+            ],
+            "levels": [
+                {
+                    "enable": true,
+                    "name": "Diagnose",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "params":[
+                                {
+                                    "cmd": "dumpsys SurfaceFlinger",
+                                    "filename": "sf.txt"
+                                },
+                                {
+                                    "cmd": "dumpsys window",
+                                    "filename": "window.txt"
+                                },
+                                {
+                                    "cmd": "dumpsys activity a",
+                                    "filename": "activity_a.txt"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "enable": true,
+                    "name": "Fatal",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "params":[
+                                {
+                                    "cmd": "dumpsys SurfaceFlinger",
+                                    "filename": "sf.txt"
+                                },
+                                {
+                                    "cmd": "dumpsys window",
+                                    "filename": "window.txt"
+                                },
+                                {
+                                    "cmd": "dumpsys activity a",
+                                    "filename": "activity_a.txt"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "enable": true,
+            "name": "graphics_oom",
+            "category": "fatal",
+            "allowUpload": true,
+            "configs": [
+                {
+                    "package": "*",
+                    "bitmap": "536870912",
+                    "texture": "536870912",
+                    "graphicbuffer": "536870912",
+                    "total": "1073741824"
+                }
+            ],
+            "levels": [
+                {
+                    "enable": true,
+                    "name": "Diagnose",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "client",
+                            "name": "ClientAction",
+                            "params":[
+                                {
+                                    "type": "dumpGfxinfo",
+                                    "filename": "gfxinfo.txt"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "enable": true,
+                    "name": "Fatal",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "client",
+                            "name": "ClientAction",
+                            "params":[
+                                {
+                                    "type": "dumpGfxinfo",
+                                    "filename": "gfxinfo.txt"
+                                }
+                            ]
+                        },
+                        {
+                            "enable": true,
+                            "type": "client",
+                            "name": "ClientAction",
+                            "runningTime": 60000,
+                            "predication": "published=`getprop ro.flyme.published`\nif [[ $published = \"\" || $published = \"false\" ]]\nthen\n    echo \"true\"\nelse \n    echo \"false\"\nfi",
+                            "params":[
+                                {
+                                    "type": "dumpGraphics",
+                                    "filename": "graphics.zip"
+                                },
+                                {
+                                    "type": "dumpHprof",
+                                    "filename": "gfxinfo.hprof"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "enable": true,
+            "name": "window_leak",
+            "category": "fatal",
+            "allowUpload": true,
+            "configs": [
+                {
+                    "windowCount": "2048"
+                }
+            ],
+            "levels": [
+                {
+                    "enable": true,
+                    "name": "Fatal",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "params":[
+                                {
+                                    "cmd": "dumpsys SurfaceFlinger --list",
+                                    "filename": "sf_list.txt"
+                                },
+                                {
+                                    "cmd": "dumpsys window",
+                                    "filename": "window.txt"
+                                },
+                                {
+                                    "cmd": "dumpsys activity a",
+                                    "filename": "activity_a.txt"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "enable": true,
+            "name": "swt",
+            "category": "fatal",
+            "allowUpload": true,
+            "levels": [
+                {
+                    "enable": true,
+                    "name": "Fatal",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "exportVariables": {
+                                "ems": [
+                                    "baseLogPath"
+                                ]
+                            },
+                            "params":[
+                                {
+                                    "cmd": "dosysrq x m y a w"
+                                },
+                                {
+                                    "cmd": "copyfiles 5 300 anr_ /data/anr/ $baseLogPath 0"
+                                },
+                                {
+                                    "cmd": "copyfiles 1 300 traces_SystemServer_ /data/anr/ $baseLogPath 0"
+                                }
+                            ]
+                        },
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "params":[
+                                {
+                                    "cmd": "cat /dev/binderfs/binder_logs/state",
+                                    "filename": "binderinfo.txt"
+                                },
+                                {
+                                    "cmd": "cat /dev/binderfs/binder_logs/failed_transaction_log",
+                                    "filename": "failed_transaction_log.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b main -d",
+                                    "filename": "mainlog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b events -d",
+                                    "filename": "eventlog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b system -d",
+                                    "filename": "syslog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b crash -d",
+                                    "filename": "crashlog.txt"
+                                },
+                                {
+                                    "cmd": "dosysrq x m y a w; dmesg -T",
+                                    "filename": "dmesg.txt"
+                                },
+                                {
+                                    "cmd": "ps -A -T",
+                                    "filename": "psinfo.txt"
+                                },
+                                {
+                                    "cmd": "dumpsys SurfaceFlinger",
+                                    "filename": "dumpsfinfo.txt"
+                                },
+                                {
+                                    "cmd": "df",
+                                    "filename": "dfinfo.txt"
+                                }
+                            ]
+                        },
+                        {
+                            "enable": true,
+                            "type": "ems",
+                            "name": "TracingAction",
+                            "predication": "published=`getprop ro.flyme.published`\nif [[ $published = \"\" || $published = \"false\" ]]\nthen\n    echo \"true\" \nelse \n    echo \"false\"\nfi",
+                            "exportVariables": {
+                                "ems": [
+                                    "baseLogPath"
+                                ],
+                                "client": [
+                                ]
+                            },
+                            "params":[
+                                {
+                                    "cmd": "ems_stop_perfetto; cp -p /data/local/traces/trace_ems.perfetto $baseLogPath; chmod 777 $baseLogPath/trace_ems.perfetto; ems_start_perfetto"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "enable": false,
+            "name": "je",
+            "category": "fatal",
+            "allowUpload": true,
+            "configs": [
+                {
+                    "processlist": "*"
+                }
+            ],
+            "levels": [
+                {
+                    "enable": true,
+                    "name": "Fatal",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "params":[
+                                {
+                                    "cmd": "logcat -v threadtime -b main -d",
+                                    "filename": "mainlog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b events -d",
+                                    "filename": "eventlog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b system -d",
+                                    "filename": "syslog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b crash -d",
+                                    "filename": "crashlog.txt"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "enable": true,
+            "name": "ss_je",
+            "category": "fatal",
+            "allowUpload": true,
+            "levels": [
+                {
+                    "enable": true,
+                    "name": "Fatal",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "params":[
+                                {
+                                    "cmd": "dumpfd system_server",
+                                    "filename": "fdinfo.txt"
+                                },
+                                {
+                                    "cmd": "cat /dev/binderfs/binder_logs/state",
+                                    "filename": "binderinfo.txt"
+                                },
+                                {
+                                    "cmd": "cat /dev/binderfs/binder_logs/failed_transaction_log",
+                                    "filename": "failed_transaction_log.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b main -d",
+                                    "filename": "mainlog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b events -d",
+                                    "filename": "eventlog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b system -d",
+                                    "filename": "syslog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b crash -d",
+                                    "filename": "crashlog.txt"
+                                },
+                                {
+                                    "cmd": "dmesg -T",
+                                    "filename": "dmesg.txt"
+                                },
+                                {
+                                    "cmd": "ps -A -T",
+                                    "filename": "psinfo.txt"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "enable": true,
+            "name": "ne",
+            "category": "fatal",
+            "allowUpload": true,
+            "configs": [
+                {
+                    "processlist": "system_server|/system/bin/surfaceflinger"
+                }
+            ],
+            "levels": [
+                {
+                    "enable": true,
+                    "name": "Fatal",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "exportVariables": {
+                                "ems": [
+                                    "baseLogPath"
+                                ]
+                            },
+                            "params":[
+                                {
+                                    "cmd": "cat /dev/binderfs/binder_logs/state",
+                                    "filename": "binderinfo.txt"
+                                },
+                                {
+                                    "cmd": "cat /dev/binderfs/binder_logs/failed_transaction_log",
+                                    "filename": "failed_transaction_log.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b main -d",
+                                    "filename": "mainlog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b events -d",
+                                    "filename": "eventlog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b system -d",
+                                    "filename": "syslog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b crash -d",
+                                    "filename": "crashlog.txt"
+                                },
+                                {
+                                    "cmd": "dosysrq x m y a w; dmesg -T",
+                                    "filename": "dmesg.txt"
+                                },
+                                {
+                                    "cmd": "ps -A -T",
+                                    "filename": "psinfo.txt"
+                                },
+                                {
+                                    "cmd": "copyfiles 3 300 tombstone_ /data/tombstones/ $baseLogPath 20"
+                                },
+                                {
+                                    "cmd": "copyfiles 1 300 reference_overflow_ /data/system/oom_hprof/ $baseLogPath 10"
+                                },
+                                {
+                                    "cmd": "copyfiles 1 300 reference_overflow_ /sdcard/oom_hprof/ $baseLogPath 10"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "enable": true,
+            "name": "java_oom",
+            "category": "fatal",
+            "allowUpload": true,
+            "configs": [
+                {
+                    "processlist": ".*testapp|com.meizu.*|com.flyme.*|com.android.*|^android$"
+                }
+            ],
+            "levels": [
+                {
+                    "enable": true,
+                    "name": "Fatal",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "client",
+                            "name": "ClientAction",
+                            "runningTime": 60000,
+                            "predication": "published=`getprop ro.flyme.published`\nif [[ $published = \"\" || $published = \"false\" ]]\nthen\n    echo \"true\"\nelse \n    echo \"false\"\nfi",
+                            "params":[
+                                {
+                                    "type": "dumpHprof",
+                                    "filename": "fatalheap.hprof"
+                                }
+                            ]
+                        },
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "exportVariables": {
+                                "ems": [
+                                    "baseLogPath"
+                                ]
+                            },
+                            "params":[
+                                {
+                                    "cmd": "logcat -v threadtime -b main -d",
+                                    "filename": "mainlog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b events -d",
+                                    "filename": "eventlog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b system -d",
+                                    "filename": "syslog.txt"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "enable": false,
+            "name": "app_jank",
+            "category": "fatal",
+            "allowUpload": true,
+            "configs": [
+                {
+                    "processlist": ".*testapp|com.*|com.meizu.*|com.flyme.*|com.android.*|^android$",
+                    "skippedframe": "3",
+                    "janks": "3",
+                    "statsinterval": "10",
+                    "reportinterval": "300"
+                }
+            ],
+            "levels": [
+                {
+                    "enable": true,
+                    "name": "Fatal",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "ems",
+                            "name": "TracingAction",
+                            "predication": "published=`getprop ro.flyme.published`\nif [[ $published = \"\" || $published = \"false\" ]]\nthen\n    echo \"true\" \nelse \n    echo \"false\"\nfi",
+                            "exportVariables": {
+                                "ems": [
+                                    "baseLogPath"
+                                ],
+                                "client": [
+                                ]
+                            },
+                            "params":[
+                                {
+                                    "cmd": "ems_stop_perfetto; cp -p /data/local/traces/trace_ems.perfetto $baseLogPath;chmod 777 $baseLogPath/trace_ems.perfetto; ems_start_perfetto"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "enable": false,
+            "name": "spamming_oneway",
+            "category": "fatal",
+            "allowUpload": true,
+            "configs": [
+                {
+                    "processlist": "*",
+                    "interval": "3600",
+                    "threshold": "30"
+                }
+            ],
+            "levels": [
+                {
+                    "enable": true,
+                    "name": "Fatal",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "params": [
+                                {
+                                    "cmd": "cat /dev/binderfs/binder_logs/state",
+                                    "filename": "binderinfo.txt"
+                                },
+                                {
+                                    "cmd": "cat /dev/binderfs/binder_logs/failed_transaction_log",
+                                    "filename": "failed_transaction_log.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b main -d",
+                                    "filename": "mainlog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b events -d",
+                                    "filename": "eventlog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b system -d",
+                                    "filename": "syslog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b crash -d",
+                                    "filename": "crashlog.txt"
+                                },
+                                {
+                                    "cmd": "dmesg -T",
+                                    "filename": "dmesg.txt"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "enable": false,
+            "name": "window_jank",
+            "category": "fatal",
+            "allowUpload": true,
+            "configs": [
+                {
+                    "processlist": "system_server",
+                    "skippedframe": "3",
+                    "janks": "3",
+                    "statsinterval": "10",
+                    "reportinterval": "600"
+                }
+            ],
+            "levels": [
+                {
+                    "enable": true,
+                    "name": "Fatal",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "ems",
+                            "name": "TracingAction",
+                            "predication": "published=`getprop ro.flyme.published`\nif [[ $published = \"\" || $published = \"false\" ]]\nthen\n    echo \"true\" \nelse \n    echo \"false\"\nfi",
+                            "exportVariables": {
+                                "ems": [
+                                    "baseLogPath"
+                                ],
+                                "client": [
+                                ]
+                            },
+                            "params":[
+                                {
+                                    "cmd": "ems_stop_perfetto; cp -p /data/local/traces/trace_ems.perfetto $baseLogPath;chmod 777 $baseLogPath/trace_ems.perfetto; ems_start_perfetto"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "enable": false,
+            "name": "sf_jank",
+            "category": "fatal",
+            "allowUpload": true,
+            "configs": [
+                {
+                    "trackjank": "1",
+                    "recordjankduration_ms": "150",
+                    "janks": "7",
+                    "statsinterval": "60",
+                    "reportinterval": "300"
+                }
+            ],
+            "levels": [
+                {
+                    "enable": true,
+                    "name": "Fatal",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "ems",
+                            "name": "TracingAction",
+                            "predication": "published=`getprop ro.flyme.published`\nif [[ $published = \"\" || $published = \"false\" ]]\nthen\n    echo \"true\" \nelse \n    echo \"false\"\nfi",
+                            "exportVariables": {
+                                "ems": [
+                                    "baseLogPath"
+                                ],
+                                "client": [
+                                ]
+                            },
+                            "params":[
+                                {
+                                    "cmd": "ems_stop_perfetto; cp -p /data/local/traces/trace_ems.perfetto $baseLogPath;chmod 777 $baseLogPath/trace_ems.perfetto; ems_start_perfetto"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "enable": true,
+            "name": "manual_trigger",
+            "category": "Fatal",
+            "allowUpload": false,
+            "configs": [
+                {
+                    "processlist": "^android$",
+                    "key_0": "24,24,24,25,25,25",
+                    "key_1": "25,25,25,24,24,24",
+                    "key_2": "24,24,24,24,25,25,25,25"
+                }
+            ],
+            "levels": [
+                {
+                    "enable": true,
+                    "name": "fatal",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "params": [
+                                {
+                                    "cmd": "cmd vibrator_manager synced -B -d ems oneshot 150"
+                                }
+                            ]
+                        },
+                        {
+                            "enable": true,
+                            "type": "ems",
+                            "name": "TracingAction",
+                            "predication": "published=`getprop ro.flyme.published`\nif [[ $published = \"\" || $published = \"false\" ]]\nthen\n    echo \"true\" \nelse \n    echo \"false\"\nfi",
+                            "configRequired": "$key_1 || $key_0",
+                            "exportVariables": {
+                                "ems": [
+                                    "baseLogPath"
+                                ]
+                            },
+                            "params": [
+                                {
+                                    "cmd": "ems_stop_perfetto; cp -p /data/local/traces/trace_ems.perfetto $baseLogPath;chmod 777 $baseLogPath/trace_ems.perfetto; ems_start_perfetto"
+                                }
+                            ]
+                        },
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "configRequired": "$key_2",
+                            "exportVariables": {
+                                "ems": [
+                                    "baseLogPath"
+                                ]
+                            },
+                            "params": [
+                                {
+                                    "cmd": "kill -35 `pidof surfaceflinger`"
+                                },
+                                {
+                                    "cmd": "kill -3 `pidof system_server`;kill -3 `pidof com.android.systemui`;kill -3 `pidof com.android.phone`;kill -3 `pidof com.meizu.flyme.launcher`;sleep 5;copyfiles 4 300 trace_ /data/anr/ $baseLogPath 0"
+                                },
+                                {
+                                    "cmd": "cat /dev/binderfs/binder_logs/state",
+                                    "filename": "binderinfo.txt"
+                                },
+                                {
+                                    "cmd": "cat /dev/binderfs/binder_logs/failed_transaction_log",
+                                    "filename": "failed_transaction_log.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b main -d",
+                                    "filename": "mainlog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b events -d",
+                                    "filename": "eventlog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b system -d",
+                                    "filename": "syslog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b crash -d",
+                                    "filename": "crashlog.txt"
+                                },
+                                {
+                                    "cmd": "dosysrq x m y a w; dmesg -T",
+                                    "filename": "dmesg.txt"
+                                },
+                                {
+                                    "cmd": "ps -A -T",
+                                    "filename": "psinfo.txt"
+                                },
+                                {
+                                    "cmd": "cat /proc/meminfo",
+                                    "filename": "meminfo.txt"
+                                },
+                                {
+                                    "cmd": "dumpsys meminfo",
+                                    "filename": "dumpsysmeminfo.txt"
+                                },
+                                {
+                                    "cmd": "dumpsys SurfaceFlinger",
+                                    "filename": "dumpsfinfo.txt"
+                                },
+                                {
+                                    "cmd": "df",
+                                    "filename": "dfinfo.txt"
+                                }
+                            ]
+                        },
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "params": [
+                                {
+                                    "cmd": "cmd vibrator_manager synced -B -d ems oneshot 150"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "enable": true,
+            "name": "mem",
+            "category": "Fatal",
+            "allowUpload": true,
+            "configs": [
+                {
+                    "processlist": "com.qihoo360.mobilesafe:GuardNative",
+                    "reportinterval": "3600",
+                    "allowedMaxRssKb": "1048576"
+                }
+            ],
+            "levels": [
+                {
+                    "enable": true,
+                    "name": "Fatal",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "exportVariables": {
+                                "ems": [
+                                    "pid"
+                                ]
+                            },
+                            "params": [
+                                {
+                                    "cmd": "ps -A -T",
+                                    "filename": "psinfo.txt"
+                                },
+                                {
+                                    "cmd": "cat /proc/meminfo",
+                                    "filename": "meminfo.txt"
+                                },
+                                {
+                                    "cmd": "dumpsys meminfo $pid",
+                                    "filename": "dumpsysmeminfo.txt"
+                                }
+                            ]
+                        },
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "exportVariables": {
+                                "ems": [
+                                    "pid",
+                                    "packageName"
+                                ]
+                            },
+                            "params": [
+                                {
+                                    "cmd": "killprocess $pid $packageName"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "enable": true,
+            "name": "lmk_kill",
+            "category": "fatal",
+            "allowUpload": true,
+            "configs": [
+                {
+                    "fatalAdj": "200",
+                    "reportinterval": "3600"
+                }
+            ],
+            "levels": [
+                {
+                    "enable": true,
+                    "name": "Fatal",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "params":[
+                                {
+                                    "cmd": "logcat -v threadtime -b main -d",
+                                    "filename": "mainlog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b events -d",
+                                    "filename": "eventlog.txt"
+                                },
+                                {
+                                    "cmd": "logcat -v threadtime -b system -d",
+                                    "filename": "syslog.txt"
+                                },
+                                {
+                                    "cmd": "dumpsys meminfo",
+                                    "filename": "dumpsysmeminfo.txt"
+                                },
+                                {
+                                    "cmd": "dosysrq m; dmesg -T",
+                                    "filename": "dmesg.txt"
+                                }
+                            ]
+                        },
+                        {
+                            "enable": true,
+                            "type": "ems",
+                            "name": "TracingAction",
+                            "predication": "published=`getprop ro.flyme.published`\nif [[ $published = \"\" || $published = \"false\" ]]\nthen\n    echo \"true\" \nelse \n    echo \"false\"\nfi",
+                            "exportVariables": {
+                                "ems": [
+                                    "baseLogPath"
+                                ],
+                                "client": [
+                                ]
+                            },
+                            "params":[
+                                {
+                                    "cmd": "ems_stop_perfetto; cp -p /data/local/traces/trace_ems.perfetto $baseLogPath;chmod 777 $baseLogPath/trace_ems.perfetto; ems_start_perfetto"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "enable": false,
+            "name": "cpu",
+            "category": "Fatal",
+            "allowUpload": true,
+            "levels": [
+                {
+                    "enable": true,
+                    "name": "Fatal",
+                    "actions": [
+                        {
+                            "enable": true,
+                            "type": "dumpstate",
+                            "name": "DumpStateAction",
+                            "params": [
+                                {
+                                    "cmd": "ps -A -T",
+                                    "filename": "psinfo.txt"
+                                },
+                                {
+                                    "cmd": "dumpsys procstats",
+                                    "filename": "procstats.txt"
+                                },
+                                {
+                                    "cmd": "dumpsys batterystats",
+                                    "filename": "batterystats.txt"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
