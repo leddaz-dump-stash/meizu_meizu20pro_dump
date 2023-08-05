@@ -1,0 +1,4 @@
+service mpower_manager /vendor/bin/mpower_manager
+    class late_start
+    user root
+    group everybody system sdcard_rw

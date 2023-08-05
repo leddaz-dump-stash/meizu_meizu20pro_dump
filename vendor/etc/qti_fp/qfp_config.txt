@@ -1,0 +1,51 @@
+;============================
+; LOG related configurations
+;============================
+LOGGING_ENABLED=1
+LOG_PRIORITY=1
+
+;============================
+; SPI related configurations
+;============================
+SG_QFP_SPI_DEVICE_ID=2
+
+;=============================
+;HRM APP sensor position
+;============================
+EP_SENSOR_X=720
+EP_SENSOR_Y=2408
+EP_TOUCH_PIXEL=253,253
+
+;============================
+; IVV related configurations
+;============================
+IVV_ENABLED=1
+IVV_WRITE_INTERMEDIATE_DATA_ENABLED=0
+IVV_WRITE_ONLY_FINAL_IMAGE=0
+IVV_WRITE_AIR_IMAGE=1
+IVV_WRITE_SAVE_INVERSION_FINAL_IMAGE=0
+IVV_DS_WRITE_FINAL_IMAGE=1
+IVV_DS_WRITE_INTERMEDIATE_DATA_ENABLED=0
+IVV_BUFFER_ENABLE=0
+IVV_CUSTOMER_MODE_ENABLE=0
+IVV_WRITE_SAVE_LSS_FINAL_IMAGE=1
+
+;============================
+; customer related configurations
+;============================
+BGE_DIRECTORY=/mnt/vendor/persist/qti_fp
+
+;============================
+; Platform Identifier
+;============================
+PREF_VENDOR_SUB=3004
+
+;============================
+; sensor crack report configurations
+;============================
+CSI_INIT_CRACK_DETECTION_CHECK=1
+
+;============================
+; AE configurations
+;============================
+AE_ENABLED=1

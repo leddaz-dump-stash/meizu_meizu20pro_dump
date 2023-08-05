@@ -1,0 +1,5 @@
+service vendor.rpmbd /vendor/bin/rpmbd
+    class late_start
+    user system
+    group system
+    oneshot

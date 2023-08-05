@@ -1,0 +1,4 @@
+service vendor.fido-2-0 /vendor/bin/hw/vendor.meizu.hardware.fido@2.0-service
+    class late_start
+    user system
+    group system

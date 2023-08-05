@@ -1,0 +1,4 @@
+service vendor.ifaa-1-0 /vendor/bin/hw/vendor.meizu.hardware.ifaa@1.0-service
+    class late_start
+    user system
+    group system

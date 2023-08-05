@@ -1,0 +1,6 @@
+on post-fs-data
+    mkdir /data/vendor 0777 uwb uwb
+    mkdir /data/vendor/uwb 0777 uwb uwb
+    mkdir /data/vendor/uwb/param 0777 uwb uwb
+    chmod 0660 /dev/sr100
+    chown uwb uwb /dev/sr100
